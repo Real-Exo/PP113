@@ -1,0 +1,99 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 27d77605-2752-4e61-ac7a-098d2afac363)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 90.17 58.42) (size 63.5 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 277d86ce-7d96-4d5f-8603-8ea6c4e439b7)
+    (property "Sheetname" "Amplifier" (at 90.17 57.7084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Amplifier.kicad_sch" (at 90.17 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "P113 Portable Headphone Amp"
+        (path "/27d77605-2752-4e61-ac7a-098d2afac363" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 58.42) (size 63.5 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 50632916-6ce4-4ab5-823e-a43bf8ab8168)
+    (property "Sheetname" "Input selector" (at 25.4 57.7084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Input_selector.kicad_sch" (at 25.4 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "P113 Portable Headphone Amp"
+        (path "/27d77605-2752-4e61-ac7a-098d2afac363" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 25.4) (size 63.5 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5332b2ff-dddb-4cdf-a6e0-468d5a02a680)
+    (property "Sheetname" "Battery guard" (at 25.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Battery_guard.kicad_sch" (at 25.4 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "P113 Portable Headphone Amp"
+        (path "/27d77605-2752-4e61-ac7a-098d2afac363" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 154.94 25.4) (size 63.5 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 94d073f1-59c8-4aee-a2b3-55533d088160)
+    (property "Sheetname" "Microcontroller" (at 154.94 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Microcontroller.kicad_sch" (at 154.94 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "P113 Portable Headphone Amp"
+        (path "/27d77605-2752-4e61-ac7a-098d2afac363" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 90.17 25.4) (size 63.5 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cdebc51d-1dc7-42b1-9e9b-9f1d1104ddfb)
+    (property "Sheetname" "Power supply" (at 90.17 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power_supply.kicad_sch" (at 90.17 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "P113 Portable Headphone Amp"
+        (path "/27d77605-2752-4e61-ac7a-098d2afac363" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
